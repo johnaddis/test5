@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+
+.container{
+    text-align: center;
+    padding: 0px;
+   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 600px;
+    border: solid;
+}
+
+
+.header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: solid;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav__link {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark gray text color */
+    font-weight: bold; /* Bold font weight */
+    padding: 0 15px; /* Padding for spacing */
+}
+
+/*-----------------------------------------------------*/
+.header__title {
+    background: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+.header__title--text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.header__title--subtitle {
+    font-size: 16px;
+    color: #555;
+}
+/*-----------------------------------------------------*/
+.main {
+    /* ... your existing styles ... */
+    display: flex; /* Ensure the main container is a flex container */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically   
+   */
+}
+
+.main__label--destination, .main__label--when, .main__label--adults{
+    display: flex;
+}
+
+.main__input--to, .main__input--from{ 
+    width: 10%;
+    align-items: center;
+}
+
+.main__input--children, .main__input--adults{
+    width: 10%;
+}
+
+.main__container {
+    
+    max-width: 400px; /* Adjust this width as needed */
+    padding: 20px; /* Add padding for spacing */
+}
+
+
+
+/*Boton pagina ------------------------------------------------------------------------ */ 
+.main__button{
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+/*FOOTER pagina ------------------------------------------------------------------------ */ 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 5px 5px;
+    border-top: solid;
+    padding: 5px;
+}
+
+.footer__social-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__social-link {
+    margin-left: 10px;
+}
+.footer__social-link--icon {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+

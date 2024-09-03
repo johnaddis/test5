@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HostelsPage</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <header class="header">
+                <nav class="nav">
+                    <a href="#"
+                        class="nav__link nav__link--active">HostelsPage</a>
+                    <a href="#" class="nav__link">Home</a>
+                    <a href="#" class="nav__link">About us</a>
+                    <a href="#" class="nav__link">Contact</a>
+                </nav>
+            </header>
+            <div class="header__title">
+                <h1 class="header__title--text">HostelsPage</h1>
+                <p class="header__title--subtitle">Your site for booking
+                    hostels around the world</p>
+            </div>
+            <main class="main">
+                <div class="main__container">
+                    <div class="main__form">
+                        <label class="main__label main__label--destination" for="destination">Where do
+                            you want to go?</label>
+                        <input type="text" class="main__input" id="destination"
+                            name="destination">
+                        <br>
+                        <label class="main__label main__label--when" for="from">When?</label>
+                        <div class="main__input-group">
+                            <label class="main__label" for="from">From: </label>
+                            <input type="text" class="main__input--from" id="from"
+                                name="from">
+                            <br>
+                            <label class="main__label" for="to">To: </label>
+                            <input type="text" class="main__input--to" id="to"
+                                name="to">
+                        </div>
+                        <label class="main__label main__label--adults" for="adults">How many
+                            people?</label>
+                        <div class="main__input-group">
+                            <input type="number" class="main__input main__input--adults" id="adults"
+                                name="adults">
+                            <label class="main__label" for="from">Adults
+                            </label>
+                            <input type="number" class="main__input main__input--children"
+                                id="children" name="children">
+                            <label class="main__label" for="from">Children
+                            </label>
+                        </div>
+                        <button class="main__button"
+                            type="submit">Search</button>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <p class="footer__copyright">All rights reserved</p>
+                <ul class="footer__social-links">
+                    <li class="footer__social-link"><a href="#"
+                            class="footer__social-link--icon">Instagram</a></li>
+                    <li class="footer__social-link"><a href="#"
+                            class="footer__social-link--icon">Facebook</a></li>
+                    <li class="footer__social-link"><a href="#"
+                            class="footer__social-link--icon">Twitter</a></li>
+                </ul>
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
